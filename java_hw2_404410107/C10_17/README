@@ -1,0 +1,5 @@
+Just type 'make' and 'make run' in the terminal to makefile and run the programs.
+And then type 'make delete' to delete the execute directory.
+
+題目要求實做3個classes 並計算他們的碳足跡,且規定採用interface去調用getCarbonFootprint()
+因此有了CarbonFootprint.java,接著要我們對於個類別定義一些屬性,bicycle中使用輪子轉動圈數與顏色，Building是瓦特數及高度，Car是公里數及快慢,並定義一個常數"每__多少排放量"去計算碳足跡,在CarbonFootprintTest中依照題目要求做Arraylist 並自定義個屬性內容最後印出碳足跡.

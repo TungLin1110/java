@@ -1,0 +1,8 @@
+Just type 'make' and 'make run' in the terminal to makefile and run the programs.
+And then type 'make delete' to delete the execute directory.
+
+題目要求Employee宣告getPaymentAmount,去調用earnings().
+由於題目要求,因此不修改Employee的subclass,並實現10.15的題目.
+10.15則是要修改課本10.11-10.15的程式
+首先新增課本Invoice的程式,SalariedEmployee.java的部份由於本題採用原本的Employee而非10.13的Employee,所以getPaymentAmount()改成earnings()
+PayableInterfaceTest.java中新增幾筆薪資資料,並依照題目10.15的要求做一些薪資運算,最後印出薪資資訊
